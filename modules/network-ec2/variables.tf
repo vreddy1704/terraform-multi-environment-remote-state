@@ -1,6 +1,6 @@
 variable "project" {
   type        = string
-  default     = "demo"
+  default     = "gangula"
   description = "Project name, used as a prefix for resource names and tags."
 }
 
@@ -26,7 +26,7 @@ variable "public_subnet_cidr" {
 
 variable "availability_zone" {
   type        = string
-  description = "AZ for the public subnet, e.g. us-east-1a."
+  description = "AZ for the public subnet, e.g. eu-west-3a."
 }
 
 variable "instance_type" {
